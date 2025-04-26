@@ -29,7 +29,13 @@ const CarHire = () => {
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">{car.name}</h3>
                 <p className="text-gray-600 mb-4">Starting from {car.price}</p>
-                <button className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition duration-300">
+                <button 
+                  onClick={() => {
+                    const message = `Hi, I'm interested in hiring ${car.name} (${car.price})`;
+                    window.open(`https://wa.me/918955554771?text=${encodeURIComponent(message)}`, '_blank');
+                  }}
+                  className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition duration-300"
+                >
                   Book Now
                 </button>
               </div>

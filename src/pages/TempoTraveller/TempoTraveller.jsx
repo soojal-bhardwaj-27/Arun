@@ -27,11 +27,14 @@ const TempoTraveller = () => {
                 <p className="text-gray-600 mb-2">Starting from {tempo.price}</p>
                 <p className="text-sm text-gray-500 mb-4">{tempo.features}</p>
                 <div className="space-y-2">
-                  <button className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition duration-300">
+                  <button 
+                    onClick={() => {
+                      const message = `Hi, I'm interested in booking ${tempo.name}\nPrice: ${tempo.price}\nFeatures: ${tempo.features}`;
+                      window.open(`https://wa.me/918955554771?text=${encodeURIComponent(message)}`, '_blank');
+                    }}
+                    className="w-full bg-blue-600 text-white py-2 px-4 rounded-lg hover:bg-blue-700 transition duration-300"
+                  >
                     Book Now
-                  </button>
-                  <button className="w-full border border-blue-600 text-blue-600 py-2 px-4 rounded-lg hover:bg-blue-50 transition duration-300">
-                    View Details
                   </button>
                 </div>
               </div>
