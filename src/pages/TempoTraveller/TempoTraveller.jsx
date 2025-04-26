@@ -2,12 +2,9 @@ import React from 'react';
 
 const TempoTraveller = () => {
   const tempos = [
-    { id: 1, image: '/temp1.jpg', name: '9 Seater Tempo', price: '₹15/km', features: 'AC, Push Back Seats, LCD' },
-    { id: 2, image: '/temp2.jpg', name: '12 Seater Tempo', price: '₹18/km', features: 'AC, Comfortable Seats, Music System' },
-    { id: 3, image: '/temp3.jpg', name: '15 Seater Tempo', price: '₹20/km', features: 'AC, Luxury Seats, Entertainment' },
-    { id: 4, image: '/w4.jpg', name: '17 Seater Tempo', price: '₹22/km', features: 'AC, Reclining Seats, USB Charging' },
-    { id: 5, image: '/w4.jpg', name: '20 Seater Tempo', price: '₹25/km', features: 'AC, Premium Seats, LED TV' },
-    { id: 6, image: '/w4.jpg', name: '26 Seater Tempo', price: '₹28/km', features: 'AC, Deluxe Seats, Full Entertainment' },
+    { id: 1, image: '/w4.jpg', name: '17 Seater Tempo', price: '₹26/km', features: 'AC, Reclining Seats, USB Charging' },
+    { id: 2, image: '/w4.jpg', name: '20 Seater Tempo', price: '₹26/km', features: 'AC, Premium Seats, LED TV' },
+    { id: 3, image: '/w4.jpg', name: '26 Seater Tempo', price: '₹26/km', features: 'AC, Deluxe Seats, Full Entertainment' },
   ];
 
   return (

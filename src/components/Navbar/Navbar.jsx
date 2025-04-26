@@ -42,7 +42,7 @@ const Navbar = () => {
             <Link to="/about" className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">About Us</Link>
             <Link to="/gallery" className="text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-sm font-medium">Gallery</Link>
             <a 
-              href="https://wa.me/your-number" 
+              href="https://wa.me/918955554771" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="bg-green-500 text-white px-4 py-2 rounded-md text-sm font-medium hover:bg-green-600"
@@ -63,7 +63,7 @@ const Navbar = () => {
           <Link to="/about" className="block text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-base font-medium">About Us</Link>
           <Link to="/gallery" className="block text-gray-700 hover:text-blue-600 px-3 py-2 rounded-md text-base font-medium">Gallery</Link>
           <a 
-            href="https://wa.me/your-number" 
+            href="https://wa.me/918955554771" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="block bg-green-500 text-white px-4 py-2 rounded-md text-base font-medium hover:bg-green-600"
